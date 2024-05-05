@@ -39,7 +39,7 @@ def generated_test_selector(folder_path, test_string):
         sys.exit(1)
 
     try:
-        print("Generating tests")
+        print("Selecting tests")
         option_prompt_str = []
         for i, file_name in enumerate(matching_files):
             file_num = i + 1
